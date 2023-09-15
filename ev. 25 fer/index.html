@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio practico</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <style>
+        body
+        {
+          background-color: rgb(107, 171, 211);
+        }
+
+        #title {
+            padding-top: 15%;
+        }
+    </style>
+    
+   
+                         
+                            
+                            
+      <section class="site-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 site-title">
+        
+              <h1 class="title-text text-uppercase" id="title">Banco "The best blink (fer)"</h1>
+        
+              <div class="site-buttons">
+                <div class="d-flex flex-row flex-wrap">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 banner-image">
+              <img src="img/BLINKS BANK.png" alt="banner-img" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+              
+                            <div class="card">
+                    <div class="card-header bg-warning text-black">
+                        <h1 class="mb-0">Cajero Matematico :D</h1>
+                    </div>
+                 
+                    <div class="card-body bg-info">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label " >Ingresa tu Nombre:</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Ingresar tu nombre">
+                            </div>
+                         
+                            <div class="mb-3">
+                                <label for="billete" class="form-label">Cantidad a retirar:</label>
+                                <input type="number" class="form-control" id="cantidad" placeholder="Ingrese la cantidad">
+                            </div>
+                            
+                            <button type="button" class="btn btn-warning" id="retiro">Efectuar retiro</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="mt-4 text-center">
+                    <div class="bg-light border border-success p-3">
+                        <p id="mensaje" class="fw-bold"></p>
+                    </div>
+                </div>
+         
+                <div class="card-footer mt-4">
+                    <h3>Cuenta de ahorrom:</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><span>Billetes de 100:</span> <span id="billete100">0</span></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><span >Billetes de 50:</span> <span id="billete50">0</span></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><span >Billetes de 20:</span> <span id="billete20">0</span></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><span >Billetes de 10:</span> <span id="billete10">0</span></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><span >Billetes de 5:</span> <span id="billete5">0</span></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><span>Billetes de 1:</span> <span id="billete1">0</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="ejer pract/ejer pract.js"></script>
+</body>
+</html>
+
